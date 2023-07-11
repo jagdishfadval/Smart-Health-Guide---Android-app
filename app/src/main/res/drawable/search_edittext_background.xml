@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/white" /> <!-- Background color -->
+    <corners android:bottomRightRadius="15dp" android:topRightRadius="15dp" /> <!-- Corner radius -->
+    <!-- Search Icon -->
+    <item
+        android:drawable="@drawable/ic_search"
+        android:gravity="center_vertical|start"
+        android:paddingStart="12dp" />
+
+</shape>

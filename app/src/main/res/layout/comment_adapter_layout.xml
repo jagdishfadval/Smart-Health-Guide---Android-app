@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/idLLTopBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+        <!--circle image for displaying the user image-->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/commnetprofilephoto"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/emtyprofile" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/commentbackground"
+            android:orientation="vertical"
+            android:padding="5dp"
+           >
+            <!--text view for displaying user name-->
+            <TextView
+                android:id="@+id/commentauthourname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <!--textview for displaying post publish time-->
+            <TextView
+                android:id="@+id/commenttext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text=""
+
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+

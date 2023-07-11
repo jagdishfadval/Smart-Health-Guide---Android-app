@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "715273834504",
+    "firebase_url": "https://smarthealthguide-b3eef-default-rtdb.firebaseio.com",
+    "project_id": "smarthealthguide-b3eef",
+    "storage_bucket": "smarthealthguide-b3eef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715273834504:android:2450438a1caac59553c1bd",
+        "android_client_info": {
+          "package_name": "com.gtappdevelopers.instagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715273834504-co2qjjqdtfuor5fg6f5i2os2hmuo1sn3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBGPAQvBlqz4B_k9HrLXrWxLEvj6Keemk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715273834504-co2qjjqdtfuor5fg6f5i2os2hmuo1sn3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

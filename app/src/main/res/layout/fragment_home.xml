@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/background"
+    tools:context=".HomeFragment">
+
+
+    <LinearLayout
+        android:id="@+id/seachbox"
+        android:layout_width="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="15dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/shapeseach"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_search"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/search_edittext_background2"
+
+                android:paddingStart="15dp"
+
+
+                />
+
+            <EditText
+                android:id="@+id/searchEditText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:background="@drawable/search_edittext_background"
+                android:hint="Search a post..."
+                android:layout_gravity="center_vertical"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:maxLines="1"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+
+
+                android:singleLine="true"
+                android:layout_marginLeft="0dp"
+                android:textColorHint="#808080"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--recycler view for displaying our Facebook posts-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRVInstaFeeds"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seachbox" />
+
+
+    <!--progressbar for displaying our loadinig indicator-->
+</androidx.constraintlayout.widget.ConstraintLayout>

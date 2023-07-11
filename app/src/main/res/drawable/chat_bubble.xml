@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#3F51B5" /> <!-- Background color of the bubble -->
+    <corners android:radius="12dp" /> <!-- Radius to create rounded corners -->
+</shape>
